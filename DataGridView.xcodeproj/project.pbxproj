@@ -13,6 +13,8 @@
 		671720A11B9071AB00A42F3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671720A01B9071AB00A42F3D /* Images.xcassets */; };
 		671720A41B9071AB00A42F3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 671720A21B9071AB00A42F3D /* LaunchScreen.xib */; };
 		671720B01B9071AB00A42F3D /* DataGridViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671720AF1B9071AB00A42F3D /* DataGridViewTests.swift */; };
+		671720BA1B9071E300A42F3D /* GridColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671720B91B9071E300A42F3D /* GridColumn.swift */; };
+		671CDB341B9190A000D102C4 /* UserDataGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671CDB331B9190A000D102C4 /* UserDataGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		671720A91B9071AB00A42F3D /* DataGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671720AE1B9071AB00A42F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671720AF1B9071AB00A42F3D /* DataGridViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGridViewTests.swift; sourceTree = "<group>"; };
+		671720B91B9071E300A42F3D /* GridColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColumn.swift; sourceTree = "<group>"; };
+		671CDB331B9190A000D102C4 /* UserDataGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				671720A01B9071AB00A42F3D /* Images.xcassets */,
 				671720A21B9071AB00A42F3D /* LaunchScreen.xib */,
 				671720971B9071AB00A42F3D /* Supporting Files */,
+				671720B91B9071E300A42F3D /* GridColumn.swift */,
+				671CDB331B9190A000D102C4 /* UserDataGrid.swift */,
 			);
 			path = DataGridView;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671CDB341B9190A000D102C4 /* UserDataGrid.swift in Sources */,
 				6717209C1B9071AB00A42F3D /* ViewController.swift in Sources */,
+				671720BA1B9071E300A42F3D /* GridColumn.swift in Sources */,
 				6717209A1B9071AB00A42F3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				671720B51B9071AB00A42F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		671720B61B9071AB00A42F3D /* Build configuration list for PBXNativeTarget "DataGridViewTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				671720B81B9071AB00A42F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
